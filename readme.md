@@ -11,9 +11,14 @@
 - [ ] Core Operation
 - [ ] Image Processing in OpenCV
 - [ ] Feature Detection and Description
+	- [x] Feature Detection
+	- [ ] Feature Matching
 - [ ] Video Analysis
 - [ ] Camera Calibration and 3D Reconstruction
 - [ ] Machine Learning
+	- [x] KNN
+	- [ ] SVM
+	- [ ] K-Means Clustering
 - [ ] Computational Photography
 - [ ] Object Detection
 - [ ] OpenCV-Python Binding
