@@ -18,7 +18,7 @@
 - [ ] Machine Learning
 	- [x] KNN
 	- [ ] SVM
-	- [ ] K-Means Clustering
+	- [x] K-Means Clustering
 - [ ] Computational Photography
 - [ ] Object Detection
 - [ ] OpenCV-Python Binding
