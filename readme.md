@@ -1,6 +1,8 @@
 # opencv的python练习 #
 
 - 基于opencv 3.2.0， 安装包 [[LINK](https://sourceforge.net/projects/opencvlibrary/files/opencv-win/3.2.0/)]
+- python 2.7 64bit
+- 编译subline(control B) 或者 vs2015
 - 主要参考 [[OpenCV-Python](http://docs.opencv.org/3.2.0/d6/d00/tutorial_py_root.html)]
 - 其他参考[[OpenCV-Python](https://opencv-python-tutroals.readthedocs.io/en/latest/#)]
 
@@ -14,15 +16,22 @@
 	- [x] Feature Detection
 	- [ ] Feature Matching
 - [ ] Video Analysis
+	- [ ] Meanshift and Camshift
+	- [ ] Optical Flow
+	- [ ] Background Subtraction
 - [ ] Camera Calibration and 3D Reconstruction
 	- [x]Camera Calibration
 	- [x]Pose Estimation
 	- [ ]Epipolar Geometry 对极几何
-	- [ ]Depth Map from Stereo Images
+	- [x]Depth Map from Stereo Images
 - [ ] Machine Learning
 	- [x] KNN
 	- [ ] SVM
 	- [x] K-Means Clustering
 - [ ] Computational Photography
+	- [ ] Image Denoising
+	- [ ] Image Inpainting
+	- [ ] HDR
 - [ ] Object Detection
+	- [ ] Face Detection using Haar Cascades
 - [ ] OpenCV-Python Binding
