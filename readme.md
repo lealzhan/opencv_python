@@ -17,7 +17,7 @@
 - [ ] Camera Calibration and 3D Reconstruction
 	- [x]Camera Calibration
 	- [x]Pose Estimation
-	- [ ]Epipolar Geometry
+	- [ ]Epipolar Geometry 对极几何
 	- [ ]Depth Map from Stereo Images
 - [ ] Machine Learning
 	- [x] KNN
