@@ -9,17 +9,13 @@ def draw(img, corners, imgpts):
     img = cv2.line(img, corner, tuple(imgpts[2].ravel()), (0,0,255), 5)
     return img
 
+#load calibration result from file
 r = np.load("calibration.npz")
 print r["mtx"], r["dist"],  r["rvecs"], r["tvecs"]
 mtx = r["mtx"]
 dist = r["dist"]
-#rvecs = r["rvecs"]
-#tvecs = r["tvecs"]
-rvec = np.array([0])
-tvec= np.array([0])
-imgpts = np.array([0])
-jac= np.array([0])
 
+#pose estimation
 criteria = (cv2.TERM_CRITERIA_EPS + cv2.TERM_CRITERIA_MAX_ITER, 30, 0.001)
 objp = np.zeros((6*7,3), np.float32)
 objp[:,:2] = np.mgrid[0:7,0:6].T.reshape(-1,2)
@@ -32,12 +28,10 @@ for fname in glob.glob('left*.jpg'):
     if ret == True:
         corners2 = cv2.cornerSubPix(gray,corners,(11,11),(-1,-1),criteria)
         # Find the rotation and translation vectors.
-        # ret,rvecs, tvecs, inliers = cv2.solvePnP(objp, corners2, mtx, dist)
-        #ret = cv2.solvePnP(objp, corners2, mtx, dist, rvecs, tvecs)
-        ret = cv2.solvePnPRansac(objp, corners2, mtx, dist, rvec, tvec)
+        ret, rvecs, tvecs = cv2.solvePnP(objp, corners2, mtx, dist)
         # project 3D points to image plane
-        cv2.projectPoints(axis, rvec, tvec, mtx, dist, imgpts, jac)
-        img = draw(img, corners2, imgpts)
+        imgpts, jac = cv2.projectPoints(axis, rvecs, tvecs, mtx, dist)
+        img = draw(img,corners2,imgpts)
         cv2.imshow('img',img)
         k = cv2.waitKey(0) & 0xFF
         if k == ord('s'):
