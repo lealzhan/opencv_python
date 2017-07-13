@@ -1,3 +1,6 @@
+#http://docs.opencv.org/3.2.0/d9/d70/tutorial_py_kmeans_index.html
+#http://www.csdn.net/article/2012-07-03/2807073-k-means
+
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt

@@ -15,6 +15,10 @@
 	- [ ] Feature Matching
 - [ ] Video Analysis
 - [ ] Camera Calibration and 3D Reconstruction
+	- [ ]Camera Calibration
+	- [ ]Pose Estimation
+	- [ ]Epipolar Geometry
+	- [ ]Depth Map from Stereo Images
 - [ ] Machine Learning
 	- [x] KNN
 	- [ ] SVM
