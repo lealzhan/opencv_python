@@ -12,6 +12,7 @@
 - [ ] Gui Features in OpenCV
 - [ ] Core Operation
 - [ ] Image Processing in OpenCV
+	- [ ] Histograms in OpenCV
 - [ ] Feature Detection and Description
 	- [x] Feature Detection
 	- [ ] Feature Matching
@@ -31,7 +32,7 @@
 - [ ] Computational Photography
 	- [ ] Image Denoising
 	- [ ] Image Inpainting
-	- [ ] HDR
+	- [x] HDR
 - [ ] Object Detection
 	- [ ] Face Detection using Haar Cascades
 - [ ] OpenCV-Python Binding
