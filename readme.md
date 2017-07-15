@@ -15,9 +15,13 @@
 	- [x] Changing Colorspaces
 	- [x] Geometric Transformations of Images
 	- [x] Image Thresholding
-	- [ ] Smoothing Images
+	- [x] Smoothing Images
 	- [ ] Morphological Transformations
-	- [ ] Histograms in OpenCV
+	- [x] Image Gradients
+	- [x] Canny Edge Detection
+	- [ ] Image Pyramids
+	- [ ] Contours in OpenCV
+ 	- [ ] Histograms in OpenCV
 - [ ] Feature Detection and Description
 	- [x] Feature Detection
 	- [ ] Feature Matching
