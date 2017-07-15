@@ -10,8 +10,10 @@
 
 
 #List#
+
 - [x] Install OpenCV-Python
 - [ ] Gui Features in OpenCV
+	- [ ] Trackbar as the Color Palette
 - [ ] Core Operation
 - [ ] Image Processing in OpenCV
 	- [x] Changing Colorspaces
@@ -42,7 +44,7 @@
 	- [x] K-Means Clustering
 - [ ] Computational Photography
 	- [x] Image Denoising
-	- [x] Image Inpainting
+	- [x] Image Inpainting 图像修复
 	- [x] HDR
 - [ ] Object Detection
 	- [ ] Face Detection using Haar Cascades
