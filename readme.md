@@ -12,6 +12,11 @@
 - [ ] Gui Features in OpenCV
 - [ ] Core Operation
 - [ ] Image Processing in OpenCV
+	- [x] Changing Colorspaces
+	- [x] Geometric Transformations of Images
+	- [x] Image Thresholding
+	- [ ] Smoothing Images
+	- [ ] Morphological Transformations
 	- [ ] Histograms in OpenCV
 - [ ] Feature Detection and Description
 	- [x] Feature Detection
@@ -21,10 +26,10 @@
 	- [x] **Optical Flow**
 	- [ ] Background Subtraction
 - [ ] Camera Calibration and 3D Reconstruction
-	- [x]Camera Calibration
-	- [x]Pose Estimation
-	- [ ]Epipolar Geometry 对极几何
-	- [x]Depth Map from Stereo Images
+	- [x] Camera Calibration
+	- [x] Pose Estimation
+	- [ ] Epipolar Geometry 对极几何
+	- [x] Depth Map from Stereo Images
 - [ ] Machine Learning
 	- [x] KNN
 	- [ ] SVM
